@@ -1,0 +1,119 @@
+// ELIMINAAAARRRRR!!!!!!!!!
+public void mostrarDatos(List<Vino> vinos)
+{
+    foreach (Vino vino in vinos)
+    {
+
+        string texto = "";
+        texto += vino.getNombre;
+        texto += "";
+        texto += vino.getPrecioARS.ToString();
+        texto += "";
+        texto += vino.getAñada.ToString();
+        texto += "";
+        texto += vino.getBodega.getDescripcion;
+        texto += "";
+        texto += vino.getBodega.getPeriodoActualizacion;
+        texto += "";
+        texto += vino.getBodega.getNombre;
+        texto += "";
+        texto += vino.getBodega.getRegionVitivinicola.getNombre;
+        texto += "";
+        texto += vino.getBodega.getRegionVitivinicola.getDescripcion;
+        texto += "";
+        texto += vino.getBodega.getRegionVitivinicola.getProvincia.getNombre;
+        texto += "";
+        texto += vino.getBodega.getRegionVitivinicola.getProvincia.getPais.getNombre;
+        texto += "";
+        
+        MessageBox.Show(texto);
+
+    }
+}
+
+public void mostrarDatosVinosEnPeriodo(List<(string, float, string, string, string, float, List<Varietal>)> datosAExportar) {
+    MessageBox.Show("Hola");
+    if (datosAExportar.Count > 0)
+    {
+        foreach ((string, float, string, string, string, float, List<Varietal>) datosVinos in datosAExportar)
+        {
+            (string nombre, float precioARS, string nombreBodega, string nombreRegion, string nombrePais, float promedioPuntaje, List<Varietal> listaVarietales) = datosVinos;
+            string varietales = string.Join(",", listaVarietales);
+            MessageBox.Show(nombre);
+            MessageBox.Show(precioARS.ToString());
+            MessageBox.Show(nombreBodega);
+            MessageBox.Show(nombreRegion);
+            MessageBox.Show(nombrePais);
+            MessageBox.Show(promedioPuntaje.ToString());
+           
+        }
+    }
+    else
+    {
+        MessageBox.Show("Esta Vacion");
+    }
+}
+
+/*private void button1_Click(object sender, EventArgs e)
+{
+    dateTimePickerFechaHasta.Enabled = false;
+    dateTimePickerFechaDesde.Enabled = false;
+    tipoReseña.Visible = true;
+    lblTipoReseña.Visible = true;
+    btnSiguiente.Enabled = false;
+    btnSiguiente2.Visible = true;
+    tomarFechaReseñaDesde();
+    tomarFechaReseñaHasta();
+    btnSiguiente.Visible = false;
+    gestorRakingsVinos.tomarFechaReseñaDesde(this.fechaReseñaDesde);
+    gestorRakingsVinos.tomarFechaReseñaHasta(this.fechaReseñaHasta);
+    MessageBox.Show(gestorRakingsVinos.getFechaDesde.ToString());
+
+    // SACAR ESTO
+    string rutaVinosJSON = "C:\\Users\\santi\\source\\BonVino\\BonVino\\Recursos\\jsonVinos.json";
+    string contenidoVinosJson = File.ReadAllText(rutaVinosJSON);
+    List<Vino> vinos = JsonConvert.DeserializeObject<List<Vino>>(contenidoVinosJson);
+    
+}*/
+
+private void formasVisualizacion_SelectedIndexChanged(object sender, EventArgs e)
+{
+    //cuando se seleccione una forma de visualizacion se ya se puede confirmar la
+    //generacion del archivo
+    btnConfirmar.Visible = true;
+    //this.tomarSeleccionTipoVisualizacion();
+}
+
+
+
+
+
+
+
+private void btnSiguiente2_Click(object sender, EventArgs e) 
+{
+    //this.tomarSeleccionTipoReseña();
+    //ALTERNATIVA 1, A7
+    if (seleccionTipoReseña == "De Amigos")
+    {
+        MessageBox.Show("Selecciono reseñas de tipo \"De Amigos\"");
+        this.Close();
+
+    }
+
+    //ALTERNATIVA 2, A6
+    if (seleccionTipoReseña == "Normales")
+    {
+        MessageBox.Show("Selecciono reseñas de tipo \"Nomales\"");
+        this.Close();
+
+    }
+    tipoReseña.Enabled = false;
+    lblFormasVisualizacion.Visible = true;
+    formasVisualizacion.Visible = true;
+    btnSiguiente2.Enabled = false;
+    btnSiguiente2.Visible = false;
+
+    
+    //gestorRakingsVinos.tomarSeleccionTipoReseña(seleccionTipoReseña);
+}

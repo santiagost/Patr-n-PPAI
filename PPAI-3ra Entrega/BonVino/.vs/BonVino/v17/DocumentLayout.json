@@ -1,0 +1,379 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\interfaz\\iterador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\interfaz\\iterador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\gestor\\gestorrakingsvinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\gestor\\gestorrakingsvinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\entidad\\iteradorvinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\entidad\\iteradorvinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\entidad\\vino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\entidad\\vino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\pantalla\\pantallagenerarrankingsvinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\pantalla\\pantallagenerarrankingsvinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\pantalla\\interfazexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\pantalla\\interfazexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\pantalla\\interfazexcel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\pantalla\\interfazexcel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\bonvino\\pantalla\\pantallainicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\pantalla\\pantallainicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\interfaz\\agregado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\interfaz\\agregado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\entidad\\varietal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\entidad\\varietal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\entidad\\rese\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\entidad\\rese\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\entidad\\regionvitivinicola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\entidad\\regionvitivinicola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\entidad\\provincia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\entidad\\provincia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\entidad\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\entidad\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\entidad\\bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\entidad\\bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\bonvino\\pantalla\\pantallagenerarrankingsvinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\pantalla\\pantallagenerarrankingsvinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\bonvino.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\bonvino.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\pantalla\\pantallainicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\pantalla\\pantallainicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\bonvino\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|c:\\users\\santi\\source\\ppai-3ra entrega\\bonvino\\bonvino\\bonvino.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9547B9A2-1561-465E-9F82-4DD975375FE2}|BonVino\\BonVino.csproj|solutionrelative:bonvino\\bonvino.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PantallaGenerarRankingsVinos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Pantalla\\PantallaGenerarRankingsVinos.cs",
+              "RelativeDocumentMoniker": "BonVino\\Pantalla\\PantallaGenerarRankingsVinos.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Pantalla\\PantallaGenerarRankingsVinos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BonVino\\Pantalla\\PantallaGenerarRankingsVinos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T23:11:10.911Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PantallaGenerarRankingsVinos.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Pantalla\\PantallaGenerarRankingsVinos.cs",
+              "RelativeDocumentMoniker": "BonVino\\Pantalla\\PantallaGenerarRankingsVinos.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Pantalla\\PantallaGenerarRankingsVinos.cs",
+              "RelativeToolTip": "BonVino\\Pantalla\\PantallaGenerarRankingsVinos.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAIA5wCAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T21:12:09.318Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestorRakingsVinos.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Gestor\\GestorRakingsVinos.cs",
+              "RelativeDocumentMoniker": "BonVino\\Gestor\\GestorRakingsVinos.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Gestor\\GestorRakingsVinos.cs",
+              "RelativeToolTip": "BonVino\\Gestor\\GestorRakingsVinos.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T23:20:40.923Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Iterador.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Interfaz\\Iterador.cs",
+              "RelativeDocumentMoniker": "BonVino\\Interfaz\\Iterador.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Interfaz\\Iterador.cs",
+              "RelativeToolTip": "BonVino\\Interfaz\\Iterador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T19:33:58.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IteradorVinos.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\IteradorVinos.cs",
+              "RelativeDocumentMoniker": "BonVino\\Entidad\\IteradorVinos.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\IteradorVinos.cs",
+              "RelativeToolTip": "BonVino\\Entidad\\IteradorVinos.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T19:37:51.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Agregado.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Interfaz\\Agregado.cs",
+              "RelativeDocumentMoniker": "BonVino\\Interfaz\\Agregado.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Interfaz\\Agregado.cs",
+              "RelativeToolTip": "BonVino\\Interfaz\\Agregado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T19:32:59.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "interfazExcel.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Pantalla\\interfazExcel.cs",
+              "RelativeDocumentMoniker": "BonVino\\Pantalla\\interfazExcel.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Pantalla\\interfazExcel.cs",
+              "RelativeToolTip": "BonVino\\Pantalla\\interfazExcel.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwBsAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T22:24:51.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vino.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\Vino.cs",
+              "RelativeDocumentMoniker": "BonVino\\Entidad\\Vino.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\Vino.cs",
+              "RelativeToolTip": "BonVino\\Entidad\\Vino.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA0wCkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T23:19:45.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PantallaInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Pantalla\\PantallaInicio.cs",
+              "RelativeDocumentMoniker": "BonVino\\Pantalla\\PantallaInicio.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Pantalla\\PantallaInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BonVino\\Pantalla\\PantallaInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T19:34:31.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "interfazExcel.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Pantalla\\interfazExcel.Designer.cs",
+              "RelativeDocumentMoniker": "BonVino\\Pantalla\\interfazExcel.Designer.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Pantalla\\interfazExcel.Designer.cs",
+              "RelativeToolTip": "BonVino\\Pantalla\\interfazExcel.Designer.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T19:30:18.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Varietal.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\Varietal.cs",
+              "RelativeDocumentMoniker": "BonVino\\Entidad\\Varietal.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\Varietal.cs",
+              "RelativeToolTip": "BonVino\\Entidad\\Varietal.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T23:21:55.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Rese\u00F1a.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\Rese\u00F1a.cs",
+              "RelativeDocumentMoniker": "BonVino\\Entidad\\Rese\u00F1a.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\Rese\u00F1a.cs",
+              "RelativeToolTip": "BonVino\\Entidad\\Rese\u00F1a.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA9wCcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T23:20:55.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegionVitivinicola.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\RegionVitivinicola.cs",
+              "RelativeDocumentMoniker": "BonVino\\Entidad\\RegionVitivinicola.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\RegionVitivinicola.cs",
+              "RelativeToolTip": "BonVino\\Entidad\\RegionVitivinicola.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAvwB0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T23:59:44.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Provincia.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\Provincia.cs",
+              "RelativeDocumentMoniker": "BonVino\\Entidad\\Provincia.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\Provincia.cs",
+              "RelativeToolTip": "BonVino\\Entidad\\Provincia.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAewBoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T00:03:18.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Pais.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\Pais.cs",
+              "RelativeDocumentMoniker": "BonVino\\Entidad\\Pais.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\Pais.cs",
+              "RelativeToolTip": "BonVino\\Entidad\\Pais.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAApwBUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T00:07:16.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Bodega.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\Bodega.cs",
+              "RelativeDocumentMoniker": "BonVino\\Entidad\\Bodega.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Entidad\\Bodega.cs",
+              "RelativeToolTip": "BonVino\\Entidad\\Bodega.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAASwCYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T23:54:32.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BonVino.csproj",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj",
+              "RelativeDocumentMoniker": "BonVino\\BonVino.csproj",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj",
+              "RelativeToolTip": "BonVino\\BonVino.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-03T14:50:10.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PantallaInicio.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Pantalla\\PantallaInicio.cs",
+              "RelativeDocumentMoniker": "BonVino\\Pantalla\\PantallaInicio.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Pantalla\\PantallaInicio.cs",
+              "RelativeToolTip": "BonVino\\Pantalla\\PantallaInicio.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T19:34:58.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAIsUAAAAAAAAAAAAAJUUAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-02T18:51:20.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Program.cs",
+              "RelativeDocumentMoniker": "BonVino\\Program.cs",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Program.cs",
+              "RelativeToolTip": "BonVino\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA4wA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T20:17:42.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "BonVino\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\Properties\\Resources.resx",
+              "RelativeToolTip": "BonVino\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-01T19:22:01.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BonVino",
+              "DocumentMoniker": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj",
+              "RelativeDocumentMoniker": "BonVino\\BonVino.csproj",
+              "ToolTip": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj",
+              "RelativeToolTip": "BonVino\\BonVino.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-01T19:15:59.569Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
