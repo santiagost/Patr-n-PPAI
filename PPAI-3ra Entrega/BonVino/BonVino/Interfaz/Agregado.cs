@@ -8,6 +8,6 @@ namespace BonVino.Interfaz
 {
     public interface Agregado
     {
-        public Iterador crearIterador(Object[] elementos);
+        public Iterador crearIterador(object[] elementos);
     }
 }

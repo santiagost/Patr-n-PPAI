@@ -42,3 +42,49 @@ C:\Users\santi\source\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\
 C:\Users\santi\source\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.pdb
 C:\Users\santi\source\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.genruntimeconfig.cache
 C:\Users\santi\source\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\ref\BonVino.dll
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\bin\Debug\net8.0-windows\BonVino.exe
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\bin\Debug\net8.0-windows\BonVino.deps.json
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\bin\Debug\net8.0-windows\BonVino.runtimeconfig.json
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\bin\Debug\net8.0-windows\BonVino.dll
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\bin\Debug\net8.0-windows\BonVino.pdb
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.csproj.AssemblyReference.cache
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.Pantalla.InterfazExcel.resources
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.PantallaGenerarRakings.resources
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.PantallaInicio.resources
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.Properties.Resources.resources
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.csproj.GenerateResource.cache
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.AssemblyInfoInputs.cache
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.AssemblyInfo.cs
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.sourcelink.json
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.csproj.Up2Date
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.dll
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\refint\BonVino.dll
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.pdb
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.genruntimeconfig.cache
+C:\Users\santi\source\Patron-PPAI\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\ref\BonVino.dll
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.csproj.AssemblyReference.cache
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.Pantalla.InterfazExcel.resources
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.PantallaGenerarRakings.resources
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.PantallaInicio.resources
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.Properties.Resources.resources
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.csproj.GenerateResource.cache
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.AssemblyInfoInputs.cache
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.AssemblyInfo.cs
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.sourcelink.json
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.dll
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\refint\BonVino.dll
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.pdb
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\bin\Debug\net8.0-windows\BonVino.exe
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\bin\Debug\net8.0-windows\BonVino.deps.json
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\bin\Debug\net8.0-windows\BonVino.runtimeconfig.json
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\bin\Debug\net8.0-windows\BonVino.dll
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\bin\Debug\net8.0-windows\BonVino.pdb
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.csproj.Up2Date
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\BonVino.genruntimeconfig.cache
+C:\Users\santi\source\Patron-PPAI - copia\PPAI-3ra Entrega\BonVino\BonVino\obj\Debug\net8.0-windows\ref\BonVino.dll

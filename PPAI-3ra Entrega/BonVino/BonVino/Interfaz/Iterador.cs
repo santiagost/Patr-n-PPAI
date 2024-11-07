@@ -10,7 +10,8 @@ namespace BonVino.Interfaz
     {
         public void primero();
         public void siguiente();
-        public Object actual();
+        public object actual();
         public bool hasTerminado();
+        public bool cumpleFiltros(String[] filtros);
     }
 }

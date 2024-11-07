@@ -1,5 +1,6 @@
 ﻿using BonVino.Interfaz;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,10 +12,11 @@ namespace BonVino.Entidad
     {
         public int posicion;
         public Vino[] vinos;
-        public IteradorVinos(Object[] elementos)
+        public IteradorVinos(object[] elementos)
         {
             vinos = elementos.Cast<Vino>().ToArray();
         }
+
         public void primero()
         {
             posicion = 0;
@@ -35,6 +37,10 @@ namespace BonVino.Entidad
                 return vinos[posicion];
             }
             return null;
+        }
+        public bool cumpleFiltros(String[] filtros)
+        {
+            return true;
         }
     }
 }

@@ -10,14 +10,16 @@ using System.Runtime.CompilerServices;
 using Newtonsoft.Json;
 using BonVino.Pantalla;
 using BonVino.Interfaz;
+using Newtonsoft.Json.Serialization;
+using System.Collections;
 
 namespace BonVino.Gestor
 {
     public class GestorRakingsVinos : Agregado
     {
         public bool confirmacion;
-        public List<Vino> vinos;
-        public List<(string, float, string, string, string, float, List<string>)> datosVinosEnPeriodoSomelierConPromedio;
+        public Vino[] vinos;
+        public List<(string, float, string, string, string, float, string[])> datosVinosEnPeriodoSomelierConPromedio;
         private PantallaGenerarRakings pantallaGenerarRaking;
         private DateTime fechaReseñaDesde;
         private DateTime fechaReseñaHasta;
@@ -29,9 +31,9 @@ namespace BonVino.Gestor
         public GestorRakingsVinos(PantallaGenerarRakings pantallaGenerarRakings)
         {
             this.pantallaGenerarRaking = pantallaGenerarRakings;
-            this.vinos = new List<Vino>();
+            //this.vinos = Vino[90];
             this.interfazExcel = new InterfazExcel();
-            this.datosVinosEnPeriodoSomelierConPromedio = new List<(string, float, string, string, string, float, List<string>)>();
+            this.datosVinosEnPeriodoSomelierConPromedio = new List<(string, float, string, string, string, float, string[])>();
         }
 
         public void opcionGenerarRakingVinos()
@@ -39,7 +41,7 @@ namespace BonVino.Gestor
             pantallaGenerarRaking.solicitarFechaReseñaDesdeYHasta();
         }
 
-        public Iterador crearIterador(Object[] elementos)
+        public Iterador crearIterador(object[] elementos)
         {
             return new IteradorVinos(elementos);
         }
@@ -78,31 +80,63 @@ namespace BonVino.Gestor
         }
         public void buscarVinosDeSomelierEnPeriodo()
         {
-            //crear los vinos
             string rutaVinosJSON = "C:\\Users\\santi\\source\\BonVino\\BonVino\\Recursos\\jsonVinos.json";
-            string contenidoVinosJson = File.ReadAllText(rutaVinosJSON);
-            vinos = JsonConvert.DeserializeObject<List<Vino>>(contenidoVinosJson);
-            int cant = 0;
-            while (cant < vinos.Count) {
-                MessageBox.Show(vinos[cant].ToString());
-                cant++;
-            }
-            foreach (Vino vino in vinos)
+            string rutaVinosJSONSinReseñasSomelier = "C:\\Users\\santi\\source\\Patron-PPAI - copia\\PPAI-3ra Entrega\\BonVino\\BonVino\\Recursos\\jsonVinos - Sin reseñas somelier.json";
+            string contenidoVinosJson = File.ReadAllText(rutaVinosJSONSinReseñasSomelier);
+            this.vinos = JsonConvert.DeserializeObject<Vino[]>(contenidoVinosJson); 
+
+            //APLICANDO ITERADOR DE VINOS
+
+            iteradorVinos = (IteradorVinos) this.crearIterador(vinos);
+
+            while (iteradorVinos.hasTerminado() == false) 
             {
-                float promedioReseñasEnPeriodoDeSomelier = vino.calcularPromedioReseñasEnPeriodo(this.fechaReseñaDesde, this.fechaReseñaHasta);
-                //MessageBox.Show(promedioReseñasEnPeriodoDeSomelier.ToString());
-                if (promedioReseñasEnPeriodoDeSomelier == -1) {
+                iteradorVinos.hasTerminado();
+
+                Vino vinoActual = (Vino)iteradorVinos.actual();
+
+                //CALCULAR PROMEDIO DE LAS RESEÑAS DE SOMELIERDE CADA VINO 
+
+                float promedioReseñasEnPeriodoDeSomelier = vinoActual.calcularPromedioReseñasEnPeriodo(fechaReseñaDesde, fechaReseñaHasta, seleccionTipoReseña);
+                if (promedioReseñasEnPeriodoDeSomelier == -1)
+                {
                     return;
                 }
-                string nombreVino = vino.getNombre;
-                float precioVino = vino.getPrecioARS;
-                List<string> varietales = vino.buscarVarietal();
-                (string nombreBodega, string nombreRegion, string nombrePais) = vino.buscarDatosBodegaRegionPais();
+                
+                //ARMANDO ATRIBUTO QUE CONTIENE LA INFORMACION A MOSTRAR DE CADA VINO
+
+                string nombreVino = vinoActual.getNombre;
+                float precioVino = vinoActual.getPrecioARS;
+
+                (string nombreBodega, string nombreRegion, string nombrePais) = vinoActual.buscarDatosBodegaRegionPais();
+                string[] varietales = vinoActual.buscarVarietal();
+                              
                 datosVinosEnPeriodoSomelierConPromedio.Add((nombreVino, precioVino, nombreBodega, nombreRegion, nombrePais, promedioReseñasEnPeriodoDeSomelier, varietales));
+                iteradorVinos.siguiente();
             }
+
+            bool sinReseñasSomelier = true;
+            foreach((string, float, string, string, string, float, string[]) datosVinos in datosVinosEnPeriodoSomelierConPromedio)
+            {
+                (string nombre, float precioARS, string nombreBodega, string nombreRegion, string nombrePais, float promedioPuntaje, string[] listaVarietales) = datosVinos;
+                if (promedioPuntaje != 0)
+                {
+                    sinReseñasSomelier = false;
+                    break;
+                }
+            }
+            if (sinReseñasSomelier)
+            {
+                MessageBox.Show("No se encontraron reseñas de Sommelier");
+                this.finCU();
+            }
+            
+            
+
         }
         public void ordenarVinosEnPeriodoDeSomelierConPromedio()
-        {
+        {   
+            //ORDENANDO VINOS SEGUN PROMEDIO
             datosVinosEnPeriodoSomelierConPromedio.Sort((x, y) => y.Item6.CompareTo(x.Item6));
             if (datosVinosEnPeriodoSomelierConPromedio.Count > 10)
             {
@@ -117,8 +151,7 @@ namespace BonVino.Gestor
         {
             pantallaGenerarRaking.WindowState = FormWindowState.Minimized;
             interfazExcel.WindowState = FormWindowState.Minimized;
-            
+            //pantallaGenerarRaking.Close();
+            //interfazExcel.Close();
         }
-        
-
     } }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             listaRanking = new DataGridView();
+            Nro = new DataGridViewTextBoxColumn();
             nombreVino = new DataGridViewTextBoxColumn();
             calificacion = new DataGridViewTextBoxColumn();
             precioARS = new DataGridViewTextBoxColumn();
@@ -45,7 +46,7 @@
             listaRanking.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             listaRanking.BackgroundColor = SystemColors.Window;
             listaRanking.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            listaRanking.Columns.AddRange(new DataGridViewColumn[] { nombreVino, calificacion, precioARS, nombreBodega, varietal, region, nombrePais });
+            listaRanking.Columns.AddRange(new DataGridViewColumn[] { Nro, nombreVino, calificacion, precioARS, nombreBodega, varietal, region, nombrePais });
             listaRanking.Dock = DockStyle.Fill;
             listaRanking.Location = new Point(0, 0);
             listaRanking.Margin = new Padding(3, 2, 3, 2);
@@ -54,47 +55,54 @@
             listaRanking.Size = new Size(1045, 338);
             listaRanking.TabIndex = 0;
             // 
+            // Nro
+            // 
+            Nro.FillWeight = 45F;
+            Nro.HeaderText = "Nro";
+            Nro.MaxInputLength = 3276;
+            Nro.Name = "Nro";
+            // 
             // nombreVino
             // 
             nombreVino.HeaderText = "Nombre Vino";
             nombreVino.MinimumWidth = 6;
             nombreVino.Name = "nombreVino";
             // 
-            // precio sugerido
+            // calificacion
             // 
             calificacion.HeaderText = "Precio sugerido";
             calificacion.MinimumWidth = 6;
-            calificacion.Name = "precioARS";
+            calificacion.Name = "calificacion";
             // 
-            // nombreBodega
+            // precioARS
             // 
             precioARS.HeaderText = "Nombre Bodega";
             precioARS.MinimumWidth = 6;
-            precioARS.Name = "nombreBodega";
+            precioARS.Name = "precioARS";
             // 
             // nombreBodega
             // 
             nombreBodega.HeaderText = "Nombre Region";
             nombreBodega.MinimumWidth = 6;
-            nombreBodega.Name = "nombreRegion";
-            // 
-            // nombrePais
-            // 
-            varietal.HeaderText = "Nombre Pais";
-            varietal.MinimumWidth = 6;
-            varietal.Name = "nombrePais";
-            // 
-            // promedio
-            // 
-            region.HeaderText = "Promedio";
-            region.MinimumWidth = 6;
-            region.Name = "promedio";
+            nombreBodega.Name = "nombreBodega";
             // 
             // varietal
             // 
+            varietal.HeaderText = "Nombre Pais";
+            varietal.MinimumWidth = 6;
+            varietal.Name = "varietal";
+            // 
+            // region
+            // 
+            region.HeaderText = "Promedio";
+            region.MinimumWidth = 6;
+            region.Name = "region";
+            // 
+            // nombrePais
+            // 
             nombrePais.HeaderText = "Descripcion Varietal";
             nombrePais.MinimumWidth = 6;
-            nombrePais.Name = "varietal";
+            nombrePais.Name = "nombrePais";
             // 
             // InterfazExcel
             // 
@@ -115,6 +123,7 @@
         #endregion
 
         private DataGridView listaRanking;
+        private DataGridViewTextBoxColumn Nro;
         private DataGridViewTextBoxColumn nombreVino;
         private DataGridViewTextBoxColumn calificacion;
         private DataGridViewTextBoxColumn precioARS;

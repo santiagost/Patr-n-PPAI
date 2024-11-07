@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "69U3MYRjLJ8=",
+  "dgSpecHash": "LdyvRvoeXAE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj",
+  "projectFilePath": "C:\\Users\\santi\\source\\Patron-PPAI - copia\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

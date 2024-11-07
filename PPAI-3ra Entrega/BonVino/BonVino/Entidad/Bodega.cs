@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,13 @@ namespace BonVino.Entidad
 {
     public class Bodega
     {
+        [JsonProperty("descripcion")]
         private string descripcion;
+        [JsonProperty("nombre")]
         private string nombre;
+        [JsonProperty("periodoActualizacion")]
         private string periodoActualizacion;
+        [JsonProperty("regionVitivinicola")]
         private RegionVitivinicola regionVitivinicola;
 
         public Bodega(string nombre,string descripcion,string periodoActualizacion, RegionVitivinicola regionVitivinicola)

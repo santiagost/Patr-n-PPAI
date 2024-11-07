@@ -21,6 +21,10 @@ namespace BonVino
             InitializeComponent();
             gestorRakingsVinos = new GestorRakingsVinos(this);
         }
+        public string getTipoReseña()
+        {
+            return seleccionTipoReseña;
+        }
         public void habilitarPantalla()
         {
             this.Show();

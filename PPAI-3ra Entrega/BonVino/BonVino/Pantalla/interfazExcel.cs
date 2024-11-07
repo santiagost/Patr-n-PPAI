@@ -16,17 +16,19 @@ namespace BonVino.Pantalla
         public InterfazExcel()
         {
             InitializeComponent();
+            listaRanking.AllowUserToAddRows = false;
         }
 
-        public void exportarExcel(List<(string, float, string, string, string, float, List<string>)> datosAExportar)
+        public void exportarExcel(List<(string, float, string, string, string, float, string[])> datosAExportar)
         {
-            float cont = 0;
-            foreach ((string, float, string, string, string, float, List<string>) datosVinos in datosAExportar)
+            float cont = 1;
+            foreach ((string, float, string, string, string, float, string[]) datosVinos in datosAExportar)
             {
-                (string nombre, float precioARS, string nombreBodega, string nombreRegion, string nombrePais, float promedioPuntaje, List<string> listaVarietales) = datosVinos;
+                (string nombre, float precioARS, string nombreBodega, string nombreRegion, string nombrePais, float promedioPuntaje, string[] listaVarietales) = datosVinos;
                 string varietales = string.Join(",", listaVarietales);
-                listaRanking.Rows.Add(nombre, precioARS, nombreBodega, nombreRegion, nombrePais, promedioPuntaje, varietales);
+                listaRanking.Rows.Add(cont++, nombre, precioARS, nombreBodega, nombreRegion, nombrePais, promedioPuntaje, varietales);
             }
+       
             this.Show();
         }
         private void InterfazExcel_Load(object sender, EventArgs e)

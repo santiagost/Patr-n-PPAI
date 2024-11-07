@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj": {}
+    "C:\\Users\\santi\\source\\Patron-PPAI - copia\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj": {}
   },
   "projects": {
-    "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj": {
+    "C:\\Users\\santi\\source\\Patron-PPAI - copia\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\source\\Patron-PPAI - copia\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj",
         "projectName": "BonVino",
-        "projectPath": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj",
+        "projectPath": "C:\\Users\\santi\\source\\Patron-PPAI - copia\\PPAI-3ra Entrega\\BonVino\\BonVino\\BonVino.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\source\\PPAI-3ra Entrega\\BonVino\\BonVino\\obj\\",
+        "outputPath": "C:\\Users\\santi\\source\\Patron-PPAI - copia\\PPAI-3ra Entrega\\BonVino\\BonVino\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

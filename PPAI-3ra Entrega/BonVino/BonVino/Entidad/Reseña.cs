@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,13 @@ namespace BonVino.Entidad
 {
     public class Reseña
     {
+        [JsonProperty("comentario")]
         private string comentario;
+        [JsonProperty("esPremium")]
         private bool esPremium;
+        [JsonProperty("fechaReseña")]
         private DateTime fechaReseña;
+        [JsonProperty("puntaje")]
         private int puntaje;
 
         public Reseña(DateTime fechaReseña, int puntaje, string comentario, bool esPremiun)

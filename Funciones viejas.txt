@@ -1,0 +1,102 @@
+foreach (Vino vino in vinos)
+{
+    float promedioReseñasEnPeriodoDeSomelier = vino.calcularPromedioReseñasEnPeriodo(this.fechaReseñaDesde, this.fechaReseñaHasta);
+    //MessageBox.Show(promedioReseñasEnPeriodoDeSomelier.ToString());
+        
+    //vino.mostrarReseñas(cant);
+    //cant++;
+
+    if (promedioReseñasEnPeriodoDeSomelier == -1) {
+        return;
+    }
+    string nombreVino = vino.getNombre;
+    float precioVino = vino.getPrecioARS;
+    List<string> varietales = vino.buscarVarietal();
+    (string nombreBodega, string nombreRegion, string nombrePais) = vino.buscarDatosBodegaRegionPais();
+    datosVinosEnPeriodoSomelierConPromedio.Add((nombreVino, precioVino, nombreBodega, nombreRegion, nombrePais, promedioReseñasEnPeriodoDeSomelier, varietales));
+}
+
+
+
+
+Método en Vino
+public float calcularPromedioReseñasEnPeriodo(DateTime fechaDesde, DateTime fechaHasta)
+{   
+    // calcula y devuelve el promedio de puntajes de las reseñas de un vino
+    int cont = 0;
+    float acum = 0;
+    foreach (Reseña reseña in reseñas)
+    {
+        if (reseña.estaEnPeriodo(fechaDesde, fechaHasta) && reseña.sosDeSomelier())
+        {
+            cont++;
+            acum += reseña.getPuntaje;
+        }
+    }
+    if (cont > 0)
+    {
+        float promedioReseñas = this.calcularPromedioPuntaje(cont, acum);
+        return promedioReseñas;
+
+    }
+    else
+    {
+        return -1;
+    }
+}
+
+
+
+VARIETALES
+public List<string> buscarVarietal()
+{   
+    //recorre los varietales de un vino y devuelve el nombre de cada uno en un arreglo
+    List<string> varietales = [];
+    foreach (Varietal variteal in this.varietales)
+    {
+        varietales.Add(variteal.getDescripcion);
+    }
+    return varietales;
+}
+
+CON ARRAYS
+public string[] buscarVarietal()
+{   
+    //recorre los varietales de un vino y devuelve el nombre de cada uno en un arreglo
+    string[] varietales;
+    iteradorVarietales = (IteradorVarietales) crearIterador(this.varietales);
+
+    iteradorVarietales.primero();
+
+    while (iteradorVarietales.hasTerminado() == false)
+    {
+        iteradorVarietales.hasTerminado();
+        Varietal vartietalActual = (Varietal)iteradorVarietales.actual();
+        
+        varietales.Append(vartietalActual.getDescripcion);
+        MessageBox.Show(varietales.Length.ToString());
+        iteradorVarietales.siguiente();
+    }
+    return varietales;
+
+
+
+
+
+
+ Reseña reseñaActual = reseñas[posicion];
+ // Verificar filtro de sommelier
+ bool cumpleSommelier = true;
+ if (filtros[0] == "sommelier")
+ {
+     cumpleSommelier = reseñaActual.sosDeSomelier();
+ }
+
+ // Verificar filtro de fechas
+ bool cumplePeriodo = true;
+ if (DateTime.TryParse(filtros[1], out DateTime fechaDesde) && DateTime.TryParse(filtros[2], out DateTime fechaHasta))
+ {
+     cumplePeriodo = reseñaActual.estaEnPeriodo(fechaDesde, fechaHasta);
+ }
+
+ return cumpleSommelier && cumplePeriodo;

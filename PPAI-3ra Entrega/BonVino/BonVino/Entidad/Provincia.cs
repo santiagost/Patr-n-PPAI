@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,10 @@ namespace BonVino.Entidad
 {
     public class Provincia
     {
+        [JsonProperty("nombre")]
         private string nombre;
         //private List<RegionVitivinicola> regionesVitivinicolas;
+        [JsonProperty("pais")]
         private Pais pais;
         public Provincia (string nombre, Pais pais) //List<RegionVitivinicola> regionesVitivinicolas)
         {
